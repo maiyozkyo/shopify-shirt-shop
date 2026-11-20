@@ -1,0 +1,23 @@
+{
+  "name": "shopify-shirt-shop",
+  "version": "1.0.0",
+  "description": "Shopify apparel demo store set up with Admin API scripts and a customised Dawn theme",
+  "main": "index.js",
+  "scripts": {
+    "images": "node --env-file-if-exists=.env scripts/render-images.mjs && node --env-file-if-exists=.env scripts/render-hero.mjs",
+    "import": "node --env-file=.env scripts/import.mjs",
+    "theme:dev": "shopify theme dev --store demo-proposal-store --path theme",
+    "theme:push": "shopify theme push --store demo-proposal-store --path theme --unpublished",
+    "shots": "node --env-file=.env scripts/shoot.mjs",
+    "import:csv": "node --env-file=.env scripts/import-csv.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@shopify/cli": "^5.0.2",
+    "playwright-core": "^1.65.1"
+  },
+  "private": true
+}
