@@ -6,9 +6,9 @@ A small clothing store on Shopify, set up end to end with scripts instead of cli
 - Live store: https://demo-proposal-store.myshopify.com (password protected; password on request)
 - Theme: Shopify's [Dawn](https://github.com/Shopify/dawn) 16.2, customised through its JSON settings, not forked Liquid
 
-| Home | Product | Mobile |
-|---|---|---|
-| <img src="docs/home.png" width="320"> | <img src="docs/product.png" width="320"> | <img src="docs/product-mobile.png" width="160"> |
+| Home | Collection | Product | Mobile |
+|---|---|---|---|
+| <img src="docs/home.png" width="240"> | <img src="docs/collection.png" width="240"> | <img src="docs/product.png" width="240"> | <img src="docs/home-mobile.png" width="90"> <img src="docs/product-mobile.png" width="90"> |
 
 ## What's in here
 
